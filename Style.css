@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -17,29 +17,18 @@ header {
     color: white;
 }
 
-h1 {
+h1, h2 {
     margin: 0;
 }
 
-#featured-products ul, #why-cleantech ul, #what-you-get ul {
-    list-style-type: none;
+p, ul, ol {
+    margin-bottom: 15px;
 }
 
-#featured-products ul ul {
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
-#featured-products li {
-    font-weight: bold;
-}
-
-#why-cleantech ul, #what-you-get ul {
-    margin-left: 20px;
-}
-
-#purchase-now a {
-    color: #4CAF50;
+#featured-products, #why-cleantech, #cleaning-steps {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 footer {
